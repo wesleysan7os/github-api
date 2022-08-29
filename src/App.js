@@ -1,7 +1,16 @@
+import { Avatar } from './components/Avatar'
+import { Filter } from './components/Filter'
+import { Header } from './components/Header'
+import { RepositorysList } from './components/RepositorysList';
+
 function App() {
   return (
     <div className="App">
-      hello world
+      <Header>
+        <Avatar />
+        <Filter />
+      </Header>
+      <RepositorysList />
     </div>
   );
 }
